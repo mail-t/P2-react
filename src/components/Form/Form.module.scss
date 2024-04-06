@@ -1,0 +1,49 @@
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dataWrapper {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+
+.inputPlace {
+  width: 140px;
+  border-radius: 16px;
+  border: 1px solid rgb(29, 31, 46);
+  color: rgb(29, 31, 46);
+}
+
+.selectPlace {
+  border-radius: 16px;
+  border: 1px solid rgb(29, 31, 46);
+  background-color: aquamarine;
+  color: rgb(29, 31, 46);
+  font-family: Arial;
+}
+
+.btn {
+  border-radius: 16px;
+  border: 1px solid rgb(29, 31, 46);
+  color: rgb(29, 31, 46);
+  font-family: Arial;
+  background-color: aqua;
+  cursor: pointer;
+
+  .btn:hover {
+    transform: scale(1.05);
+  }
+}
+
+.outcomeScore {
+  color: #ffd000;
+  font-family: Arial;
+  font-size: 18px;
+}
+.outcomeError {
+  color: red;
+  font-family: Arial;
+  font-size: 18px;
+}

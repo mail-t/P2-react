@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 450px;
+  height: 250px;
+  background-color: rgb(29, 31, 46);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.heading {
+  color: white;
+  font-size: 35px;
+  font-family: Arial;
+}
+
+.result {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 10px;
+}
